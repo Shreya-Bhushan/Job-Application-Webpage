@@ -9,10 +9,7 @@
 .heading{
   margin-left: 20px;
 }
-/* .container {
-    max-width: 900px;
-    margin: 0 auto;  iska mtlb centre m aajayega box
-  } */
+
 .apply-box {
   background-color: pink;
   margin:auto;
@@ -35,10 +32,9 @@
 }
 label {
   font-size: 15px;
-  margin-bottom: 5px; /*  first name aur enter first name k beech k gap ko badhayega */
-}
+  margin-bottom: 5px;
 input select textarea {
-  padding: 6px 10px; /* left right aur up-bottom   */
+  padding: 6px 10px; 
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 15px;
@@ -46,7 +42,7 @@ input select textarea {
 }
 
 input:focus{
-    outline-color: red;  /* input ko hover krne pr uska outline color / border color red ho jayega   */
+    outline-color: red;  
 }
 
 .button-container{
@@ -71,19 +67,3 @@ button:hover{
     color: black;
     transition: 0.3 ease-out;
 }
-/* .heading h1{
-    text-align: center;
-    font-size: 300%;
-}
-.form-control{
-    font-size: 25px;
-}
-#first-name{
-    font-size: 25px;
-}
-#last-name{
-    font-size: 25px;
-}
-#email{
-    font-size: 25px;
-} */
